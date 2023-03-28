@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*print_rev - prints astring in reverse
+*print_reve - prints astring in reverse
 *@r: string to print
 *Return: number of chars printed
 */
-int print_rev(va_list r)
+int print_reve(va_list r)
 {
-	char *st;
+char *st;
 	int i, j = 0;
 
 	st = va_arg(r, char *);
